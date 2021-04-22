@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string s;   //Take the string from user
+    cin>>s;
+    
+    string newstring=" ";  //Create a newstring to store the reverse string
+    
+    int l=s.length()-1;
+    while(l>0)
+    {
+        newstring =newstring + s[l];
+        l--;
+    }
+    cout << newstring;
+    return 0;
+    
+ }
